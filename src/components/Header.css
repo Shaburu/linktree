@@ -8,9 +8,13 @@
     font-family: Arial, Helvetica, sans-serif;
     color: palevioletred;
     background-color: pink;
+    overflow: hidden;
+
 }
 
-
+.titty{
+  font-size: 50px;
+}
   @media (prefers-reduced-motion: no-preference) {
     .navbar>img{
       animation: shaburu infinite 0.5s linear;

@@ -76,10 +76,11 @@ a:hover{
     background-color: pink;
     grid-template-columns: 25% 25% 25% 25%;
     grid-auto-rows: minmax(90px,auto);
+    overflow: hidden;
 }
 
 .grid-bottom>div{
-    font-size: 128px;
+    font-size: 100px;
     color:white;
     display: flex;
     flex-direction: column;
