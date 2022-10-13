@@ -47,6 +47,19 @@ const Links = () => {
             </div>
              
 
+            
+            <div className='yard'>
+                <div className='contentb'>
+                
+            <video className='contentc'src={exp} autoPlay loop muted/>
+
+                <div className='content'>
+                    <h1>THE EXPERIENCE</h1>
+                   <p>ONCE IN A LIFETIME,</p><p> CONTACT SHABURU!</p>
+                </div>  
+                </div>          
+            </div>  
+
             <div className='yard'>
             <a href="https://www.youtube.com/channel/UCl9xayO7chFY1OfsPVn7Org/videos?sub_confirmation=1" target="_blank">
 
@@ -60,18 +73,6 @@ const Links = () => {
                 </div>  
                 </a>        
             </div>
-            
-            <div className='yard'>
-                <div className='contentb'>
-                
-            <video className='contentc'src={exp} autoPlay loop muted/>
-
-                <div className='content'>
-                    <h1>THE EXPERIENCE</h1>
-                   <p>ONCE IN A LIFETIME,</p><p> CONTACT SHABURU!</p>
-                </div>  
-                </div>          
-            </div>  
 
             <div className='yard'>
             
