@@ -1,13 +1,16 @@
 import React from 'react';
 import './links.css';
 import vlogtrailer from '../Assets/trailer.gif'
-import mushroom from '../Assets/mushroom.gif'
 import cloth from '../Assets/cloth.gif'
-import micro from '../Assets/micro.gif'
-import exp from '../Assets/exp.gif'
-import tat from '../Assets/tat.gif'
-import pangu from '../Assets/pangu.gif'
 import con from '../Assets/connor.gif'
+
+import mush from '../Assets/mushroom.mp4'
+import micro from '../Assets/micro.mp4'
+import tat from '../Assets/tat.mp4'
+import pangu from '../Assets/pangu.mp4'
+import exp from '../Assets/exp.mp4'
+
+
 
 
 const Links = () => {
@@ -15,6 +18,8 @@ const Links = () => {
     <div className='linkbody'>
         <div className='grid-container'>
         
+        
+
             <div className='yard'>
                 <div className='contentb' style={{
                 backgroundImage: `url(${cloth})`,
@@ -61,10 +66,9 @@ const Links = () => {
             </div>
             
             <div className='yard'>
-                <div className='contentb' style={{
-                backgroundImage: `url(${exp})`,
-                backgroundSize: `cover`
-                }}>
+                <div className='contentb'>
+                
+            <video className='contentc'src={exp} autoPlay loop/>
 
                 <div className='content'>
                     <h1>THE EXPERIENCE</h1>
@@ -77,11 +81,11 @@ const Links = () => {
             
             <a href="https://www.instagram.com/shaburustattooshop/" target="_blank">
 
-                <div className='contentb' style={{
-                backgroundImage: `url(${tat})`,
-                backgroundSize: `cover`
-                }}>
+                <div className='contentb'>
     
+                <video className='contentc'src={tat} autoPlay loop/>
+
+
                 <div className='overlay'></div>
 
                 <div className='content'>
@@ -94,10 +98,10 @@ const Links = () => {
 
             <div className='yard'>
             <a href="https://shaburu.github.io/Falhofner/" target="_blank">
-                <div className='contentb' style={{
-                backgroundImage: `url(${pangu})`,
-                backgroundSize: `cover`
-                }}>
+                <div className='contentb'>
+
+                <video className='contentc'src={pangu} autoPlay loop/>
+
                 <div className='content'>
                 <h1>FALHOFNER</h1>
                 <p>GAMING STUDIO</p>
@@ -110,11 +114,10 @@ const Links = () => {
 
             <div className='yard'>
                 <a href="https://forms.gle/9uScUgNbZwXuvtg39" target="_blank">
-                <div className='contentb' style={{
-                backgroundImage: `url(${micro})`,
-                backgroundSize:`cover`
-                }}>
+                <div className='contentb' >
                 
+            <video className='contentc'src={micro} autoPlay loop/>
+
             <div className='overlay'></div>
 
             <div className='content'>
@@ -128,11 +131,9 @@ const Links = () => {
             <div className='yard'>
             <a href="https://forms.gle/J8tK5MW5EbmqZ6Es9" target="_blank">
 
-                <div className='contentb' style={{
-                backgroundImage: `url(${mushroom})`,
-                backgroundSize:`cover`
-                }}>
+                <div className='contentb'>
                 
+                <video className='contentc'src={mush} autoPlay loop/>
 
                 <div className='overlay'></div>
                 <div className='content'>
