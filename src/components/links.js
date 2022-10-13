@@ -1,7 +1,5 @@
 import React from 'react';
 import './links.css';
-import vlogtrailer from '../Assets/trailer.gif'
-import cloth from '../Assets/cloth.gif'
 import con from '../Assets/connor.gif'
 
 import mush from '../Assets/mushroom.mp4'
@@ -10,6 +8,8 @@ import tat from '../Assets/tat.mp4'
 import pangu from '../Assets/pangu.mp4'
 import exp from '../Assets/exp.mp4'
 
+import vlogtrailer from '../Assets/vlog.mp4'
+import cloth from '../Assets/cloth.mp4'
 
 
 
@@ -21,11 +21,9 @@ const Links = () => {
         
 
             <div className='yard'>
-                <div className='contentb' style={{
-                backgroundImage: `url(${cloth})`,
-                backgroundSize: `cover`
-                }}>
-    
+                <div className='contentb'>
+                <video className='contentc'src={cloth} autoPlay loop/>
+
                 <div className='overlay'></div>
 
                 <div className='content'>
@@ -52,10 +50,8 @@ const Links = () => {
             <div className='yard'>
             <a href="https://www.youtube.com/channel/UCl9xayO7chFY1OfsPVn7Org/videos?sub_confirmation=1" target="_blank">
 
-                <div className='contentb' style={{
-                backgroundImage: `url(${vlogtrailer})`,
-                backgroundSize: `cover`
-                }}>
+                <div className='contentb'>
+            <video className='contentc'src={vlogtrailer} autoPlay loop/>
 
                 <div className='content'>
                 <h1>VLOGS</h1>
