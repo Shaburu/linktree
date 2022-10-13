@@ -51,7 +51,7 @@ const Links = () => {
             <a href="https://www.youtube.com/channel/UCl9xayO7chFY1OfsPVn7Org/videos?sub_confirmation=1" target="_blank">
 
                 <div className='contentb'>
-            <video className='contentc'src={vlogtrailer} autoPlay loop/>
+            <video className='contentc'src={vlogtrailer} autoPlay loop muted/>
 
                 <div className='content'>
                 <h1>VLOGS</h1>
@@ -64,7 +64,7 @@ const Links = () => {
             <div className='yard'>
                 <div className='contentb'>
                 
-            <video className='contentc'src={exp} autoPlay loop/>
+            <video className='contentc'src={exp} autoPlay loop muted/>
 
                 <div className='content'>
                     <h1>THE EXPERIENCE</h1>
@@ -79,7 +79,7 @@ const Links = () => {
 
                 <div className='contentb'>
     
-                <video className='contentc'src={tat} autoPlay loop/>
+                <video className='contentc'src={tat} autoPlay loop muted/>
 
 
                 <div className='overlay'></div>
@@ -96,7 +96,7 @@ const Links = () => {
             <a href="https://shaburu.github.io/Falhofner/" target="_blank">
                 <div className='contentb'>
 
-                <video className='contentc'src={pangu} autoPlay loop/>
+                <video className='contentc'src={pangu} autoPlay loop muted/>
 
                 <div className='content'>
                 <h1>FALHOFNER</h1>
@@ -112,7 +112,7 @@ const Links = () => {
                 <a href="https://forms.gle/9uScUgNbZwXuvtg39" target="_blank">
                 <div className='contentb' >
                 
-            <video className='contentc'src={micro} autoPlay loop/>
+            <video className='contentc'src={micro} autoPlay loop muted/>
 
             <div className='overlay'></div>
 
@@ -129,7 +129,7 @@ const Links = () => {
 
                 <div className='contentb'>
                 
-                <video className='contentc'src={mush} autoPlay loop/>
+                <video className='contentc'src={mush} autoPlay loop muted/>
 
                 <div className='overlay'></div>
                 <div className='content'>
