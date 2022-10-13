@@ -22,7 +22,7 @@ const Links = () => {
 
             <div className='yard'>
                 <div className='contentb'>
-                <video className='contentc'src={cloth} autoPlay loop/>
+                <video className='contentc'src={cloth} autoPlay loop muted/>
 
                 <div className='overlay'></div>
 
