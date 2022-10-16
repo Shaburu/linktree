@@ -19,7 +19,7 @@
 
   @media (prefers-reduced-motion: no-preference) {
     .navbar>img{
-      animation: shaburu infinite 0.5s ease;
+      animation: shaburu infinite 0.5s ease-in-out;
     }
   }
 
@@ -37,47 +37,22 @@
   
   @media (prefers-reduced-motion: no-preference) {
     .titty{
-      animation: shaburu-jiggle infinite 20s ease-in-out;
+      animation: shaburu-jiggle infinite 5s ease-in-out;
     }
   }
 
   @keyframes shaburu-jiggle {
     from {
-      opacity: 1;
-      color: #151515;
       transform: scale(1);
     }
     50% {
-      opacity: 1;
-      color: palevioletred;
       transform: scale(1.2);
     }
     to {
-      opacity: 1;
-      color: #151515;
         transform: scale(1);
       }
   }
 
-  @media (prefers-reduced-motion: no-preference) {
-    .navbar{
-      animation: bgshaburu infinite 10s linear;
-    }
-  }
-
-  @keyframes bgshaburu {
-    from {
-      background-color: whitesmoke;
-    }
-    25% {
-      background-color: pink;
-    }
-    65% {
-      background-color: pink;
-    }
-    to {
-      background-color: whitesmoke;
-      }
-  }
+  
 
   
