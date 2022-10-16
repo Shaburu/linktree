@@ -76,7 +76,7 @@ const Links = () => {
 
             <div className='yard'>
             
-            <a href="https://www.instagram.com/shaburustattooshop/" target="_blank">
+            <a href="https://www.instagram.com/pokesbyshaburu/" target="_blank">
 
                 <div className='contentb'>
     
