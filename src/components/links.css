@@ -94,7 +94,23 @@ a:hover{
   
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    .foot{
+      animation: icon-jiggle infinite 0.6s ease-in-out;
+    }
+  }
 
+  @keyframes icon-jiggle {
+    from {
+      transform: rotate(3deg);
+    }
+    50% {
+      transform: rotate(-3deg);
+    }
+    to {
+        transform: rotate(3deg);
+      }
+  }
 
 /*
 .back{
