@@ -49,6 +49,7 @@ const Links = () => {
 
             
             <div className='yard'>
+            <a href="https://www.instagram.com/shaburux/" target="_blank">
                 <div className='contentb'>
                 
             <video className='contentc'src={exp} autoPlay loop muted/>
@@ -57,7 +58,8 @@ const Links = () => {
                     <h1>THE EXPERIENCE</h1>
                    <p>ONCE IN A LIFETIME,</p><p> CONTACT SHABURU!</p>
                 </div>  
-                </div>          
+                </div>   
+                </a>       
             </div>  
 
             <div className='yard'>
