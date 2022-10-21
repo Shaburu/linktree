@@ -19,7 +19,7 @@ const Header = () => {
           </div>
           </div>
            <img src={shaburu} />
-           <div className='titty'>shaburu</div>
+           <div className='css-selector'>shaburu</div>
             
         </div>
 
