@@ -12,20 +12,39 @@
 
 }
 .tittypop{
-  font-size: 10px;
+  font-size: 15px;
 }
 .titty{
-  font-size: 60px;
+  font-size: 64px;
 }
 
 
+@media (prefers-reduced-motion: no-preference) {
+  .titty{
+    animation: icon-jiggle infinite 0.6s ease-in-out;
+  }
+}
+
+@keyframes icon-jiggle {
+  from {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  to {
+      transform: rotate(3deg);
+    }
+}
+
+/*
   @media (prefers-reduced-motion: no-preference) {
     .navbar>img{
       animation: shaburu infinite 0.5s ease-in-out;
     }
   }
 
-  /*
+  
   @keyframes shaburu {
     from {
       transform: rotate(-3deg);
@@ -73,14 +92,14 @@
 */
   
   .css-selector {
-    background: linear-gradient(270deg, #ee6abb, #58cbd3);
+    background: linear-gradient(270deg, palevioletred, #58cbd3);
     background-size: 400% 100%;
 
     -webkit-animation: AnimationName 1s ease infinite;
     -moz-animation: AnimationName 1s ease infinite;
     animation: AnimationName 1s ease infinite;
-
-    text-shadow: 2px 2px #ee6abb; 
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(255, 128, 171); 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
