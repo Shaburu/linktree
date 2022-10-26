@@ -21,6 +21,8 @@ const Links = () => {
         
 
             <div className='yard'>
+            <a href="https://www.instagram.com/shaburux/" target="_blank">
+
                 <div className='contentb'>
                 <video className='contentc'src={cloth} autoPlay loop muted/>
 
@@ -31,9 +33,12 @@ const Links = () => {
                 <p>(coming soon)</p>
                 </div>
             </div>
+            </a>
             </div>
 
             <div className='yard'>
+            <a href="https://www.instagram.com/shaburux/" target="_blank">
+
               <div className='contentb' style={{
                 backgroundImage: `url(${con})`,
                 backgroundSize: `cover`
@@ -44,6 +49,7 @@ const Links = () => {
                 (website coming soon)
                 </div>
             </div>
+            </a>
             </div>
              
 
