@@ -49,7 +49,7 @@ const Links = () => {
 
             
             <div className='yard'>
-            <a href="https://www.instagram.com/shaburux/" target="_blank">
+            <a href="https://www.youtube.com/channel/UCl9xayO7chFY1OfsPVn7Org" target="_blank">
                 <div className='contentb'>
                 
             <video className='contentc'src={exp} autoPlay loop muted/>
