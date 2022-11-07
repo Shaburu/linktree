@@ -102,7 +102,7 @@ const Links = () => {
             </div>
 
             <div className='yard'>
-            <a href="https://shaburu.github.io/Falhofner/" target="_blank">
+            <a href="/Falhofner" target="_blank">
                 <div className='contentb'>
 
                 <video className='contentc'src={pangu} autoPlay loop muted/>

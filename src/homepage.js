@@ -6,7 +6,7 @@ import Beef from './components/beef'
 
 const Homepage = () => {
   return (
-    <div>
+    <div className="App">
     <Header/>
     <Links />
     <Beef/>
