@@ -54,10 +54,15 @@ const Falhofnercontent = () => {
         <p><h3>Coming Soon on PlayStore!</h3></p>
         <br />
         <div>
-        <div>
+        <div className="f-links">
             <a href="https://www.instagram.com/falhofner/" target="_blank">    
-            <ion-icon name="id-card-outline"></ion-icon></a></div>
-
+            <ion-icon name="logo-instagram"></ion-icon></a>
+            
+            <a href="https://www.twitter.com/falhofner/" target="_blank">    
+            <ion-icon name="logo-twitter"></ion-icon></a>
+        
+        </div>
+            
         </div>
         <div>
         <footer style={{ fontWeight: 'bold' }}>WEBSITE CREATED BY SHABURU &#169; 2022-{(new Date().getFullYear())}</footer>

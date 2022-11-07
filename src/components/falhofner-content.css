@@ -37,38 +37,19 @@
     }
 }
 
-
-.content{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    
-}
 .content-b{
     position: relative;
     width: 100%;
     height: 100vh;
-    border-top: 2em #f1f1fd dashed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.contentc{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.yard{
-    position: relative;
-    height: auto;
+.f-links{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 64px;
+    padding-bottom: 1em;
 }
