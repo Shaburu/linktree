@@ -1,7 +1,7 @@
 import React from 'react';
 import './links.css';
-import con from '../Assets/connor.gif'
 
+import coin from '../Assets/coin.mp4'
 import mush from '../Assets/mushroom.mp4'
 import micro from '../Assets/micro.mp4'
 import tat from '../Assets/tat.mp4'
@@ -36,23 +36,22 @@ const Links = () => {
             </a>
             </div>
 
-            <div className='yard'>
-            <a href="https://www.instagram.com/shaburux/" target="_blank">
-
-              <div className='contentb' style={{
-                backgroundImage: `url(${con})`,
-                backgroundSize: `cover`
-                }}>
-                <div className='overlay'></div>
-                <div className='content'>
-                <h1>TECH STARTUP</h1>
-                (website coming soon)
-                </div>
-            </div>
-            </a>
-            </div>
+        
              
 
+            <div className='yard'>
+            <a href="https://www.instagram.com/shaburux/" target="_blank">
+                <div className='contentb'>
+                
+            <video className='contentc'src={coin} autoPlay loop muted/>
+            
+            <div className='content'>
+                <h1>TECH STARTUP</h1>
+                (website coming soon)
+                </div> 
+                </div>   
+                </a>       
+            </div>  
             
             <div className='yard'>
             <a href="https://www.youtube.com/channel/UCl9xayO7chFY1OfsPVn7Org" target="_blank">
