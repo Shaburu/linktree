@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import shaburu from './shaburu.png'
+import shaburu from './shaburu1.png'
 
 const Header = () => {
   return (
@@ -18,7 +18,7 @@ const Header = () => {
 
           </div>
           </div>
-           <img src={shaburu} alt="shaburu's face" />
+          <a href='/'><img className='img' src={shaburu} alt="shaburu's face" /></a> 
            <div className='css-selector'>shaburu</div>
             
         </div>
