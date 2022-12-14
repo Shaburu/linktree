@@ -1,3 +1,68 @@
+/*
+#ff5b84
+#eb3461
+#1c1c27
+*/
+
 .footback{
-    background-color: white;
+    background-color: #151515;
+    color: rgba(245, 245, 245, 0.336) ;
+}
+
+.newsletter{
+    background-color: #eb3461;
+}
+
+.form{
+    background-color: #ff5b84;
+    width: 100%;
+    height: 100%;
+    padding: 0.3em;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 10px 0px #666;
+}
+
+.input-group{
+    display: grid;
+    grid-template-columns: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    font-size: 20px;
+    padding: 0.2em;
+    width: 100%;
+    height: 100%;
+    max-width: 250px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #eb3461;
+    background-color: #ff5b84;
+}
+
+.placeholder{
+    font-family: monospace;
+    padding: 0.2em;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.input:focus + .placeholder{
+    color: #eb3461;
+    font-weight: bolder;
+    background-color: #ff5b84;
+}
+
+.input:focus{
+    background-color: #eb3461;
+}
+
+.lord-icon{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    height: 5vh;
 }

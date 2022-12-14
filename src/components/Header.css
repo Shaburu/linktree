@@ -6,8 +6,8 @@
     font-weight: bolder;
     font-size: 77px;
     font-family: Arial, Helvetica, sans-serif;
-    color: palevioletred;
-    background-color: pink;
+    color: #151515;
+    background-color: #eb3461;
     overflow: hidden;
 
 }
@@ -92,13 +92,14 @@
 */
   
   .css-selector {
-    background: linear-gradient(270deg, palevioletred, #58cbd3);
+    background: linear-gradient(270deg, #151515, #58cbd3);
     background-size: 400% 100%;
 
     -webkit-animation: AnimationName 1s ease infinite;
     -moz-animation: AnimationName 1s ease infinite;
     animation: AnimationName 1s ease infinite;
-    font-size: 50px;
+    font-size: 45px;
+    padding-right: 0.15em;
     text-shadow: 2px 2px rgb(255, 128, 171); 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;

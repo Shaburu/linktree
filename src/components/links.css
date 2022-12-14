@@ -80,7 +80,7 @@ a:hover{
 .grid-bottom{
     display: grid;
     padding:10px;
-    background-color: pink;
+    background-color: #eb3461;
     grid-template-columns: 25% 25% 25% 25%;
     grid-auto-rows: minmax(90px,auto);
     overflow: hidden;
@@ -88,7 +88,7 @@ a:hover{
 
 .grid-bottom>div{
     font-size: 100px;
-    color:white;
+    color:#1c1c27;
     display: flex;
     flex-direction: column;
   
