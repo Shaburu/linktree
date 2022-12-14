@@ -12,13 +12,13 @@ const Header = () => {
           Latest Project
           </div>
           <div className='titty'>
-          <a href="https://shaburu.github.io/GDSC/index" target="_blank">
+          <a href="https://instagram.com/shiftersgarden" target="_blank">
           <ion-icon name="shuffle-outline"><div className="tittypop">Latest Project</div></ion-icon>
           </a>
 
           </div>
           </div>
-           <img src={shaburu} />
+           <img src={shaburu} alt="shaburu's face" />
            <div className='css-selector'>shaburu</div>
             
         </div>
