@@ -7,7 +7,7 @@ import micro from '../Assets/micro.mp4'
 import tat from '../Assets/tat.mp4'
 import pangu from '../Assets/pangu.mp4'
 import exp from '../Assets/exp.mp4'
-
+import shaburu from './andrew.png'
 import vlogtrailer from '../Assets/vlog.mp4'
 import cloth from '../Assets/cloth.mp4'
 
@@ -16,9 +16,33 @@ import cloth from '../Assets/cloth.mp4'
 const Links = () => {
   return (
     <div className='linkbody'>
+        
+        <div className='grid-container2'>
+
+        <div className='yard'>
+            <a href="https://www.youtube.com/watch?v=mZAPOEBi9wk" target="_blank">
+
+                <div className='contentb' >
+                    {/*content b c decide the placement of the background image/video can also use background image*/}
+              {/*  <video className='contentc'src={cloth} autoPlay loop muted/> */}
+                <img className='contentd' src={shaburu} alt="shaburu's face" />
+                <div className='overlay'></div>
+
+                <div className='content'>
+
+                <h1>INDIANS ON ANDREW TATE(GONE MISOGYNIST)</h1>
+                <p>LATEST PROJECT</p>
+
+                </div>
+                
+            </div>
+            </a>
+            </div>
+        </div>
+    
+
         <div className='grid-container'>
-        
-        
+               
 
             <div className='yard'>
             <a href="https://www.instagram.com/shaburux/" target="_blank">

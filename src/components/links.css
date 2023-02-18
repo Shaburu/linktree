@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 .linkbody{
     background-color: red;
     height: 100%;
@@ -25,9 +27,28 @@ a:hover{
     
     
 }
+.grid-container2{
+    
+    display: grid;
+    background-color: #4d5463;
+    grid-template-columns: 100%;
+    grid-template-rows: 40vh;
+    grid-auto-rows: minmax(160px,auto);   
+    
+    
+}
+
 
 .grid-container>div{
     font-size: 15px;
+    /*border: 1px solid white;*/
+    font-weight: bolder;
+    overflow: hidden;
+
+}
+
+.grid-container2>div{
+    font-size: 18px;
     /*border: 1px solid white;*/
     font-weight: bolder;
     overflow: hidden;
@@ -64,13 +85,28 @@ a:hover{
     object-fit: cover;
 }
 
+.contentd{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+}
+
 .overlay{
     position: absolute;
     overflow: clip;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.4);
+    
 }
+
+.overlay:hover{
+    background-color: rgba(0,0,0,0);
+    
+}
+
 
 .yard{
     position: relative;
@@ -109,6 +145,25 @@ a:hover{
     }
     to {
         transform: rotate(3deg);
+      }
+  }
+
+  
+@media (prefers-reduced-motion: no-preference) {
+    .contentd{
+      animation: magnify infinite 0.6s ease-in-out;
+    }
+  }
+
+  @keyframes magnify {
+    from {
+      transform: scale(1.01);
+    }
+    50% {
+      transform: scale(1);
+    }
+    to {
+        transform: scale(1.01);
       }
   }
 
